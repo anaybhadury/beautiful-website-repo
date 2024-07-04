@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Space Grotesk", sans-serif;
+}
+.navbar{
+    margin: 10px 0;
+    padding: 10px 0;
+    box-shadow: 5px 0 5px rgba(0, 0, 0, 0.3);
+}
+.navdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo a{
+    font-size: 20px;
+    font-weight: bold;
+    padding-left: 35px;
+    color: black;
+}
+li{
+    display: inline-block;
+    list-style: none;
+    padding: 0 25px;
+}
+li a{
+    font-size: 16px;
+    color: black;
+}
